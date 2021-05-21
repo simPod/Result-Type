@@ -38,3 +38,6 @@ jobs:
 
       - name: Execute PHPUnit
         run: vendor/bin/phpunit
+
+      - name: Execute Psalm
+        run: vendor/bin/psalm.phar
